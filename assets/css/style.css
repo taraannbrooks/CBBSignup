@@ -1181,6 +1181,8 @@ option {
 
 .hero-section {
   background: url(https://images.unsplash.com/photo-1469013078550-305e63b7c8f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-section.inner-page {
   height: 60vh;
@@ -1491,4 +1493,12 @@ color:#cfcdcd;
 
 .white {
   color: #F8F7F4;
+}
+
+.modal-footer a {
+  color: #F8F7F4;
+}
+
+.modal-footer a:hover {
+  color:#D85327;
 }
